@@ -9,7 +9,15 @@ ______________________________
 |    a    | s1 | s2 | s3 | s3 |  
 
 |    b    | s3 | s1 | s3 | s3 |
+
 ------------------------------
+
+| f: A->S         | s0           | s1           | s2           | s3  |
+| ------------- |:-------------: |:-------------:|:-------------:| -----:|
+|    a      | s1 | s2| s3| s3 |
+|    b     | s3      | s1| s3|   s3 |
+
+
 
 Implementacja deterministycnzego automatu skończonego dla wyrażenia reguralnego ab*a
 zbudowanego nad alfabetem 'a','b'.
